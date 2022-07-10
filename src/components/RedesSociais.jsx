@@ -1,6 +1,6 @@
 const RedesSociais = () => {
   return (
-    <div className="bg-gray-300 p-8 shadow rounded-xl mt-8 text-center font-bold">
+    <div className="bg-gray-300 p-8 shadow rounded-xl mt-10 mx-10 text-center font-bold">
       <h1 className="text-2xl">Redes Sociais</h1>
       <div className="flex text-center justify-center p-8">
         <a

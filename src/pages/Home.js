@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import Perfil from "../components/Perfil";
-import RedesSociais from "../components/RedesSociais";
 
 const Home = () => {
   return (
@@ -10,9 +9,8 @@ const Home = () => {
         className="block shadow bg-green-800 text-white text-center p-4 mt-5 rounded-xl hover:bg-green-600"
         to="/portfolio"
       >
-        Acessar Portfólio 
+        ACESSAR PROJETOS
       </Link>
-      <RedesSociais />
     </div>
   );
 };
