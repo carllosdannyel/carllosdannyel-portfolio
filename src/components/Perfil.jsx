@@ -9,7 +9,7 @@ const Perfil = () => {
       <div className="pt-6 text-center space-y-4 md:text-left md:p-8">
         <div className="text-lg font-semibold">
           Seja bem vindo ao meu portfólio, aqui você encontrará todos os meus
-          conhecimentos adiquiridos na{" "}
+          conhecimentos adquiridos na{" "}
           <a
             className="text-blue-900"
             href="https://www.betrybe.com/"
