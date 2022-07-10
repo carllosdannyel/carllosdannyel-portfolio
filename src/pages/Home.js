@@ -7,7 +7,7 @@ const Home = () => {
       <Perfil />
       <Link
         className="block shadow bg-green-800 text-white text-center p-4 mt-5 rounded-xl hover:bg-green-600"
-        to="/portfolio"
+        to="/projects"
       >
         ACESSAR PROJETOS
       </Link>

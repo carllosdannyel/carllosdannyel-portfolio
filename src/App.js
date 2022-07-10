@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import RedesSociais from "./components/RedesSociais";
 import Home from "./pages/Home";
-import Portfolio from "./pages/Portfolio";
+import Projetos from "./pages/Projetos";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/projects" element={<Projetos />} />
         <Route path="/contacts" element={<RedesSociais />} />
       </Routes>
     </div>
